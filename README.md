@@ -1,5 +1,6 @@
 interesting-js
 ==============
+## in same week
 ```Javascript
 var inSameWeek = (function() {
 	var strToDate = function(dateStr) {
