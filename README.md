@@ -14,4 +14,6 @@ var inSameWeek = (function() {
 		return (minDate.getDay()+(maxDate.getTime()-minDate.getTime())/86400000) <= 6;
 	}
 })()
+
+inSameWeek("20141214", '20141216', '20141218', 20141220);
 ```
