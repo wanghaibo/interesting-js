@@ -1,3 +1,8 @@
+/**
+ * table{width:100%;visibility:hidden;}
+ * .swipe-table{width: 100%;overflow: scroll;overflow-y:hidden;}
+ * .swipe-table table{width: 200%!important;visibility:inherit;}
+ */
 function wrapTable(table) {
     var clone = table.cloneNode(true),
         wrap = document.createElement('div');
